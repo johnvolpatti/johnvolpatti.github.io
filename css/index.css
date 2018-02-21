@@ -1,0 +1,117 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	background-image: url(airplanes.jpg);
+	height:100vh;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+/*#myVideo{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;*/
+
+.title{
+		text-align: right;
+		margin-right: 7vw;
+		margin: 37vh 5vw 23vh 55vw;
+}
+.title h1{
+	font-family: "Courier New", Monospace;
+	color: white;
+	font-weight:50;
+	font-size: 50px;
+}
+
+#links{
+	display: inline-block;
+	position: relative;
+	/*transform:translate(-50%,-50%);*/
+}
+
+.sections{
+	text-align: right;
+	padding: 1vw 2.7vw;
+	border-radius: 4px;
+	padding-left: 10vw;
+	/*border: solid 1px grey;*/
+}
+.sections a{
+	padding: 1.5vh 1.5vw;
+	margin: 1vw 0.33vw;
+	border: 1px solid grey;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	/*background: #808080;*/
+}
+
+.sections a:hover{
+	background: white;
+	border:1px solid black;
+	color:#1E90FF;
+}
+
+ul{
+	/*margin: 20vh 6vw 0vh 12vw;*/
+	list-style: none;
+	display: flex;
+	color: black;
+	/*padding: 5vh 5vw 30vh 5vw;*/
+	padding-left: 14.5vw;
+	padding-top: 1vh;
+
+}
+
+ul li{
+	font-size: 24px;
+	padding: 10px;
+}
+
+ul li a{
+	padding: 7px 10px;
+	/*margin: 15px 5px;*/
+	border-radius: 3px;
+	color: black;
+}
+
+#mail li a{
+	background: #87CEFA;
+}
+
+#github li a{
+	background: #9370DB;
+}
+
+#linkedin li a{
+	background: #1E90FF;
+}
+
+ul li:hover{
+	transform: translateY(-6px);
+}
+
+@media only screen and (max-width: 1000px){
+	.about{
+		
+	}
+}
+
+@media only screen and (max-width: 600px){
+	header{
+		background-image: url(airplanes.jpg);
+		text-align: center;
+	}
+}
