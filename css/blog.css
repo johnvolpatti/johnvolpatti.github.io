@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-image: url(../images/airplanes.jpg);
+	height:100vh;
+	width:100vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: right;
+	position: relative;
+}
+
+.blog {
+	font-family: "Courier New", Monospace;
+	color:#DCDCDC;
+	margin: 10vh 5.5vw 0px 58vw;
+	overflow: scroll;
+
+}
+
+header h1{
+	color: #9ACD32;
+	font-weight: 20;
+	font-size: 50px;
+	padding: 10px;
+}
+
+nav{
+	margin: 0px 5.5vw 0px 69.6vw;
+	padding: 5vh 0vw;
+}
+
+nav a{
+	text-decoration:none;
+	color:red;
+	border-radius: 5px;
+	border: 1px solid white; 
+	padding: 5px;
+}
+
+nav a:hover{
+	background:white;
+}
